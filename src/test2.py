@@ -10,7 +10,7 @@ B_dir = np.array([0, 0.1, 10])  # Magnetic field direction (z-axis)
 dt = 0.001
 
 p1 = Particle(position=np.array([0, 0.0, 0.0]), velocity=np.array([15.0, 0.0, 0.0]), mass=1.0, charge=5.0)
-p2 = Particle(position=np.array([0.0, 0.0, 0.0]), velocity=np.array([15.0, 0.0, 0.0]), mass=2.0, charge=-5.0)
+p2 = Particle(position=np.array([0.0, 0.0, 0.0]), velocity=np.array([15.0, 0.0, 0.0]), mass=2.0, charge=5.0)
 p3 = Particle(position=np.array([0.0, 0.0, 0.0]), velocity=np.array([15.0, 0.0, 0.0]), mass=3.0, charge=5.0)
 
 fig = plt.figure()
