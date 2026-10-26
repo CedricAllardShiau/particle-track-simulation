@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "particle_sim",
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.defaultInterpreterPath": "/home/cedricas/particle_sim/.venv/bin/python",
+		"code-runner.fileDirectoryAsCwd": true,
+		"code-runner.executorMap": {
+			"python": "/home/cedricas/particle_sim/.venv/bin/python -u"
+		}
+	}
+}
